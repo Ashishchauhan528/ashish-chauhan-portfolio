@@ -85,6 +85,8 @@ export default function Hero() {
           <a href="https://mail.google.com/mail/?view=cm&to=chauhanashish0831@gmail.com" target="_blank" className="btn-outline">
             Get In Touch
           </a>
+          <a href="/resume.pdf" download="Ashish_Chauhan_Resume.pdf" className="btn-outline">Download Resume ↓
+          </a>
         </div>
 
         <div className="hero-stats" style={{ opacity: 0 }}>
