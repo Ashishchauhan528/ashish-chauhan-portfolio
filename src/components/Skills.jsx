@@ -55,10 +55,17 @@ export default function Skills() {
         </div>
 
         {/* Training */}
+        <a 
+        href="https://drive.google.com/file/d/1CLMbYLUbiWAWX36VakvDvARS2vSEryni/view?usp=sharing" 
+        target="_blank" 
+        rel="noreferrer"
+        style={{ textDecoration: 'none' }}
+        >
         <div className="reveal" style={{
           background: 'var(--surface)',
           border: '1px solid var(--border)',
           padding: '32px 40px',
+          color: 'var(--text)',
           display: 'grid',
           gridTemplateColumns: 'auto 1fr auto',
           gap: 32,
@@ -75,7 +82,8 @@ export default function Skills() {
           <div>
             <div style={{
               fontFamily: 'var(--font-mono)', fontSize: 11,
-              color: 'var(--text-3)', textTransform: 'uppercase',
+               color: 'var(--text-3)',
+               textTransform: 'uppercase',
               letterSpacing: '0.08em', marginBottom: 6,
             }}>Training — LPU</div>
             <div style={{ fontFamily: 'var(--font-display)', fontSize: 18, fontWeight: 700, marginBottom: 4 }}>
@@ -89,8 +97,9 @@ export default function Skills() {
             fontFamily: 'var(--font-mono)', fontSize: 12,
             color: 'var(--accent)', background: 'var(--accent-dim)',
             padding: '6px 14px', whiteSpace: 'nowrap',
-          }}>Jun–Jul '25</div>
+          }}>Jul '25</div>
         </div>
+        </a>
       </div>
     </section>
   )

@@ -4,18 +4,21 @@ const certificates = [
     name: 'Learning Microsoft Power BI',
     issuer: 'Infosys',
     date: 'Dec 2025',
+    link: 'https://drive.google.com/file/d/13SfM7n6rPDSNt7szOjYuCXbTB292eK-c/view?usp=sharing',
   },
   {
     icon: '☁️',
     name: 'Cloud Computing',
     issuer: 'NPTEL',
     date: 'Oct 2025',
+    link: 'https://drive.google.com/file/d/1H6glkK17tvzM3nfsxXmNtXNhlsx6E6cH/view?usp=sharing',
   },
   {
     icon: '🌐',
     name: 'Responsive Web Design',
     issuer: 'freeCodeCamp',
     date: 'Oct 2023',
+    link: 'https://drive.google.com/file/d/1B9kjdnMJr66jD-mcsJvDxW_KvgbvVvgH/view?usp=sharing',
   },
 ]
 
@@ -52,6 +55,7 @@ export default function Certificates() {
             }}>Certifications</div>
             <div className="cert-list">
               {certificates.map((c, i) => (
+                <a href={c.link} target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }} key={i}>
                 <div className="cert-item reveal" key={i}>
                   <div className="cert-left">
                     <div className="cert-icon">{c.icon}</div>
@@ -62,6 +66,7 @@ export default function Certificates() {
                   </div>
                   <div className="cert-date">{c.date}</div>
                 </div>
+                </a>
               ))}
             </div>
           </div>

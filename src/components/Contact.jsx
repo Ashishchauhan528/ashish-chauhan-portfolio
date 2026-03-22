@@ -2,7 +2,7 @@ const contacts = [
   {
     label: 'Email',
     val: 'chauhanashish0831@gmail.com',
-    href: 'mailto:chauhanashish0831@gmail.com',
+    href: 'https://mail.google.com/mail/?view=cm&to=chauhanashish0831@gmail.com',
   },
   {
     label: 'Mobile',
@@ -36,8 +36,8 @@ export default function Contact() {
           {contacts.map((c, i) => (
             <a
               href={c.href}
-              target={c.href.startsWith('http') ? '_blank' : undefined}
-              rel={c.href.startsWith('http') ? 'noreferrer' : undefined}
+              target="_blank"
+              rel="noreferrer"
               className="contact-card reveal"
               key={i}
             >

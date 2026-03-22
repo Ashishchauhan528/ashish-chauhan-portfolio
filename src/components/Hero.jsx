@@ -1,3 +1,4 @@
+import profileImg from '../assets/profile.jpeg'
 import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 
@@ -85,7 +86,7 @@ export default function Hero() {
           <a href="https://mail.google.com/mail/?view=cm&to=chauhanashish0831@gmail.com" target="_blank" className="btn-outline">
             Get In Touch
           </a>
-          <a href="/resume.pdf" download="Ashish_Chauhan_Resume.pdf" className="btn-outline">Download Resume ↓
+          <a href="/resume.pdf" download="Ashish_Chauhan_Resume.pdf" target="_blank" className="btn-outline">Download Resume ↓
           </a>
         </div>
 
@@ -110,7 +111,7 @@ export default function Hero() {
           {/* Stylized initials avatar */}
           <div className="profile-frame">
             <div className="avatar-inner">
-              <div className="avatar-initials">AC</div>
+              {/* <div className="avatar-initials">AC</div>
               <div className="avatar-ring ring1" />
               <div className="avatar-ring ring2" />
               <div className="avatar-dots">
@@ -137,6 +138,12 @@ export default function Hero() {
             </div>
             <div className="profile-tag">CSE @ LPU</div>
           </div>
+        </div> */}
+        <div className="avatar-inner">
+  <img src={profileImg} alt="Ashish Chauhan" className="profile-img" />
+</div>
+        </div>
+        </div>
         </div>
       </div>
 

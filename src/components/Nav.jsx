@@ -29,7 +29,7 @@ export default function Nav() {
       </a>
 
       <ul className="nav-links">
-        {[['#about', 'About'], ['#skills', 'Skills'], ['#projects', 'Projects'], ['#contact', 'Contact']].map(([href, label]) => (
+        {[['#about', 'About'], ['#skills', 'Skills'], ['#projects', 'Projects'], ['#certificates', 'Certificates'], ['#contact', 'Contact']].map(([href, label]) => (
           <li key={href}>
             <a href={href} onClick={e => { e.preventDefault(); scrollTo(href) }}>{label}</a>
           </li>
@@ -56,7 +56,7 @@ export default function Nav() {
           position: 'fixed', inset: 0, background: 'var(--bg)', zIndex: 99,
           display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 40,
         }}>
-          {[['#about', 'About'], ['#skills', 'Skills'], ['#projects', 'Projects'], ['#contact', 'Contact']].map(([href, label]) => (
+          {[['#about', 'About'], ['#skills', 'Skills'], ['#projects', 'Projects'], ['#certificates', 'Certificates'], ['#contact', 'Contact']].map(([href, label]) => (
             <a key={href} href={href}
               onClick={e => { e.preventDefault(); scrollTo(href) }}
               style={{

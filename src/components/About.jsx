@@ -26,7 +26,7 @@ export default function About() {
 
           <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
             <a
-              href="mailto:chauhanashish0831@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&to=chauhanashish0831@gmail.com" target="_blank"
               className="btn-primary"
             >
               <span>Let's Talk</span>
