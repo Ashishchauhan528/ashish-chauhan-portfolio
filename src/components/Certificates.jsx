@@ -71,7 +71,7 @@ export default function Certificates() {
             </div>
           </div>
 
-          <div>
+          <div id="achievements">
             <div style={{
               fontFamily: 'var(--font-mono)', fontSize: 11,
               color: 'var(--text-3)', textTransform: 'uppercase',
