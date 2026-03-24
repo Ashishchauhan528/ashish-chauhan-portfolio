@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import prescriptoImg from '../assets/prescripto.png'
 import obysImg from '../assets/obys.png'
+import hdiImg from '../assets/hdi.png'
+import hr_analyticsImg from '../assets/hr_analytics.png'
+import chandni_chowkImg from '../assets/chandni_chowk.png'
 
 const projects = [
   {
@@ -36,7 +39,7 @@ const projects = [
     tags: ['Data Analytics', 'Power BI', 'Featured'],
     github: 'https://github.com/Ashishchauhan528/Human-Development-Index-HDI-Inequality-Metrics-Explorer',
     date: 'Nov 2025',
-    images: ['/hdi-home.png', '/hdi-overview.png', '/hdi-phdi.png'],
+    images: [hdiImg],
     color: '#f5e642',
   },
   {
@@ -48,7 +51,7 @@ const projects = [
     tags: ['Data Analytics'],
     github: 'https://github.com/Ashishchauhan528/HR_Analytics',
     date: '2025',
-    images: ['/hr-dashboard.png'],
+    images: [hr_analyticsImg],
     color: '#ff6b6b',
   },
   {
@@ -60,7 +63,7 @@ const projects = [
     tags: ['Data Analytics', 'Environmental'],
     github: 'https://github.com/Ashishchauhan528',
     date: 'Oct 2025',
-    images: ['/air-quality.png'],
+    images: [chandni_chowkImg],
     color: '#4df5c8',
   },
 ]

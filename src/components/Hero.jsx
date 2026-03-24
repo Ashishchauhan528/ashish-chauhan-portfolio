@@ -86,7 +86,7 @@ export default function Hero() {
           <a href="https://mail.google.com/mail/?view=cm&to=chauhanashish0831@gmail.com" target="_blank" className="btn-outline">
             Get In Touch
           </a>
-          <a href="/resume.pdf" download="Ashish_Chauhan_Resume.pdf" target="_blank" className="btn-outline">Download Resume ↓
+          <a href="resume.pdf" download="resume.pdf" target="_blank" className="btn-outline">Download Resume ↓
           </a>
         </div>
 
